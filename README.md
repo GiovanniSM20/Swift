@@ -1,3 +1,23 @@
-## I created this repository to help people who are willing to learn the Swift programming language. I had no difficulty with the language, since it had a base with other languages on which it is based (C ++ and Python).
+<img
+src="https://www.google.com.br/search?q=swift&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjTy9HDopvQAhWKGpAKHavjAi8Q_AUICSgC&biw=1440&bih=701#tbm=isch&q=swift.png+apple&imgrc=Ixw39zPIwaDngM%3A" align="left" width="250px" height="144px"/>
 
-## Eu criei esse repositório com o objetivo de ajudar pessoas que estejam com vontade de aprender a linguagem de programação Swift. Eu não tive dificuldade com a linguagem, já que tinha uma base com outras linguagens na qual a mesma se baseia (C++ e Python).
+![https://github.com/GiovanniSM20/SENAI-lista-de-exercicios](https://img.shields.io/wercker/ci/wercker/docs.svg)
+
+## Goal | Objetivo
+> An attempt to teach people to program in Swift. | Uma tentativa de ensinar pessoas a programar em Swift.
+
+<br/>
+
+## Importante:
+
+- I do not know how long I'll be updating the repository. | Não sei de quanto em quanto tempo estarei atualizando o repositório.
+ - Tenha total sabedoria de que quando você está copiando o código você não estra aprendendo e sim se enganando.
+
+<br/>
+
+## To copy the repository | Para copiar o repositório.
+ - Instale a ferramenta chamada *Git* no seu computador e aprenda como usar.
+
+```Swift
+git clone https://github.com/GiovanniSM20/Swift
+```
