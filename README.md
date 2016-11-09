@@ -11,7 +11,7 @@ src="https://static1.squarespace.com/static/529d23d2e4b0c7dd8c183826/t/54335953e
 ## Important | Importante:
 
 - I do not know how long I'll be updating the repository. | Não sei de quanto em quanto tempo estarei atualizando o repositório.
- - Tenha total sabedoria de que quando você está copiando o código você não estra aprendendo e sim se enganando.
+ - Be fully aware that when you are copying the code you are not learning but cheating. | Tenha total sabedoria de que quando você está copiando o código você não estra aprendendo e sim se enganando.
 
 <br/>
 
