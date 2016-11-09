@@ -16,7 +16,6 @@ src="https://static1.squarespace.com/static/529d23d2e4b0c7dd8c183826/t/54335953e
 <br/>
 
 ## To copy the repository | Para copiar o repositório.
- - Instale a ferramenta chamada *Git* no seu computador e aprenda como usar.
 
 ```Swift
 git clone https://github.com/GiovanniSM20/Swift
