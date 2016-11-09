@@ -10,7 +10,7 @@ src="https://www.google.com.br/search?q=swift&source=lnms&tbm=isch&sa=X&ved=0ahU
 
 ## Importante:
 
-- I do not know how long I'll be updating the repository. | Não sei de quanto em quanto tempo estarei atualizando o repositório.
+<center> - I do not know how long I'll be updating the repository. | Não sei de quanto em quanto tempo estarei atualizando o repositório. </center>
  - Tenha total sabedoria de que quando você está copiando o código você não estra aprendendo e sim se enganando.
 
 <br/>
