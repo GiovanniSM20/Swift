@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  idade-cachorro
+//  age-dog
 //
 //  Created by Giovanni Martins on 24/01/17.
 //  Copyright © 2017 Giovanni Martins. All rights reserved.
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "idade_cachorro")
+        let container = NSPersistentContainer(name: "age_dog")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
