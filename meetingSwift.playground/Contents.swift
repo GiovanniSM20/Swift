@@ -24,3 +24,7 @@ integerNumber = integerNumber * 2
 
 // And now, the variable is 0
 integerNumber = 0
+
+// Double
+var numberDecimal: Double
+numberDecimal = 9.4
