@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD507B391E3834BD00456AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD507B381E3834BD00456AF7 /* AppDelegate.swift */; };
+		FD507B3B1E3834BD00456AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD507B3A1E3834BD00456AF7 /* ViewController.swift */; };
+		FD507B3E1E3834BD00456AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD507B3C1E3834BD00456AF7 /* Main.storyboard */; };
+		FD507B411E3834BD00456AF7 /* idade_cachorro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD507B3F1E3834BD00456AF7 /* idade_cachorro.xcdatamodeld */; };
+		FD507B431E3834BD00456AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD507B421E3834BD00456AF7 /* Assets.xcassets */; };
+		FD507B461E3834BD00456AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD507B441E3834BD00456AF7 /* LaunchScreen.storyboard */; };
+		FD507B4E1E38355100456AF7 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = FD507B4D1E38355100456AF7 /* cachorro.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD507B351E3834BD00456AF7 /* idade-cachorro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idade-cachorro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD507B381E3834BD00456AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD507B3A1E3834BD00456AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD507B3D1E3834BD00456AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD507B401E3834BD00456AF7 /* idade_cachorro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = idade_cachorro.xcdatamodel; sourceTree = "<group>"; };
+		FD507B421E3834BD00456AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD507B451E3834BD00456AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD507B471E3834BD00456AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD507B4D1E38355100456AF7 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD507B321E3834BD00456AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD507B2C1E3834BD00456AF7 = {
+			isa = PBXGroup;
+			children = (
+				FD507B371E3834BD00456AF7 /* idade-cachorro */,
+				FD507B361E3834BD00456AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD507B361E3834BD00456AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD507B351E3834BD00456AF7 /* idade-cachorro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD507B371E3834BD00456AF7 /* idade-cachorro */ = {
+			isa = PBXGroup;
+			children = (
+				FD507B4D1E38355100456AF7 /* cachorro.png */,
+				FD507B381E3834BD00456AF7 /* AppDelegate.swift */,
+				FD507B3A1E3834BD00456AF7 /* ViewController.swift */,
+				FD507B3C1E3834BD00456AF7 /* Main.storyboard */,
+				FD507B421E3834BD00456AF7 /* Assets.xcassets */,
+				FD507B441E3834BD00456AF7 /* LaunchScreen.storyboard */,
+				FD507B471E3834BD00456AF7 /* Info.plist */,
+				FD507B3F1E3834BD00456AF7 /* idade_cachorro.xcdatamodeld */,
+			);
+			path = "idade-cachorro";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD507B341E3834BD00456AF7 /* idade-cachorro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD507B4A1E3834BD00456AF7 /* Build configuration list for PBXNativeTarget "idade-cachorro" */;
+			buildPhases = (
+				FD507B311E3834BD00456AF7 /* Sources */,
+				FD507B321E3834BD00456AF7 /* Frameworks */,
+				FD507B331E3834BD00456AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "idade-cachorro";
+			productName = "idade-cachorro";
+			productReference = FD507B351E3834BD00456AF7 /* idade-cachorro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD507B2D1E3834BD00456AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giovanni Martins";
+				TargetAttributes = {
+					FD507B341E3834BD00456AF7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98T2BBC86Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD507B301E3834BD00456AF7 /* Build configuration list for PBXProject "idade-cachorro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD507B2C1E3834BD00456AF7;
+			productRefGroup = FD507B361E3834BD00456AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD507B341E3834BD00456AF7 /* idade-cachorro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD507B331E3834BD00456AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD507B4E1E38355100456AF7 /* cachorro.png in Resources */,
+				FD507B461E3834BD00456AF7 /* LaunchScreen.storyboard in Resources */,
+				FD507B431E3834BD00456AF7 /* Assets.xcassets in Resources */,
+				FD507B3E1E3834BD00456AF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD507B311E3834BD00456AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD507B411E3834BD00456AF7 /* idade_cachorro.xcdatamodeld in Sources */,
+				FD507B3B1E3834BD00456AF7 /* ViewController.swift in Sources */,
+				FD507B391E3834BD00456AF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD507B3C1E3834BD00456AF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD507B3D1E3834BD00456AF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD507B441E3834BD00456AF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD507B451E3834BD00456AF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD507B481E3834BD00456AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD507B491E3834BD00456AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD507B4B1E3834BD00456AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98T2BBC86Z;
+				INFOPLIST_FILE = "idade-cachorro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMartins.idade-cachorro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD507B4C1E3834BD00456AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98T2BBC86Z;
+				INFOPLIST_FILE = "idade-cachorro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMartins.idade-cachorro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD507B301E3834BD00456AF7 /* Build configuration list for PBXProject "idade-cachorro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD507B481E3834BD00456AF7 /* Debug */,
+				FD507B491E3834BD00456AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD507B4A1E3834BD00456AF7 /* Build configuration list for PBXNativeTarget "idade-cachorro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD507B4B1E3834BD00456AF7 /* Debug */,
+				FD507B4C1E3834BD00456AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD507B3F1E3834BD00456AF7 /* idade_cachorro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD507B401E3834BD00456AF7 /* idade_cachorro.xcdatamodel */,
+			);
+			currentVersion = FD507B401E3834BD00456AF7 /* idade_cachorro.xcdatamodel */;
+			path = idade_cachorro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD507B2D1E3834BD00456AF7 /* Project object */;
+}
