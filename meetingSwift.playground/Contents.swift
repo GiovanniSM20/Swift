@@ -28,3 +28,11 @@ integerNumber = 0
 // Double
 var numberDecimal: Double
 numberDecimal = 9.4
+
+// Float 
+var numberFloat: Float
+numberFloat = 3.189878
+
+// Display 
+print("The value is " + String( integerNumber ) + " Double: " + String( numberDecimal ))
+
