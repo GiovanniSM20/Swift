@@ -34,5 +34,5 @@ var numberFloat: Float
 numberFloat = 3.189878
 
 // Display 
-print("The value is " + String( integerNumber ) + " Double: " + String( numberDecimal ))
+print("The value is \(integerNumber) Double: \(numberDecimal)")
 
